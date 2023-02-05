@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap');
+
+.h2style {
+    font-family: 'Roboto Mono', monospace;
+}
+.pstyle {
+    font-family: 'Roboto Mono', monospace;
+}
+.imgfilter {
+    filter: contrast(200%) grayscale(100%);
+    transition: all .1s linear
+}
+.imgfilter:hover {
+    filter: none;
+}
+/*
+filter: contrast(200%) grayscale(100%);
+*/

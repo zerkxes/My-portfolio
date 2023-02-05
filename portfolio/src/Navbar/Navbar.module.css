@@ -1,0 +1,14 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap');
+
+ .navCont {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-left: 90px;
+ }
+ .atags:hover {
+    font-weight: 700 !important;
+    color: #fff !important;
+    background-color: transparent;
+ }
