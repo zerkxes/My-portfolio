@@ -16,9 +16,8 @@ function Navs(props) {
                     <Nav className="me-auto" >
                         <Link to='/home' style={{ textDecoration: 'none' }}><Nav.Link href="/home" style={border}>01 : Home</Nav.Link></Link>
                         <Link to='/works' style={{ textDecoration: 'none' }}><Nav.Link href="/works" style={border}>02 : Works</Nav.Link></Link>
-                        <Link to='/about' style={{textDecoration: 'none'}}><Nav.Link href="#about" style={border}>03 : About</Nav.Link></Link>
-                        <Nav.Link href="#contact" style={border}>04 : Contact</Nav.Link>
-                        <Nav.Link href="#comp" style={{ padding: '0px 12px' }}>05 : Components</Nav.Link>
+                        <Link to='/about' style={{textDecoration: 'none'}}><Nav.Link href="/about" style={border}>03 : About</Nav.Link></Link>
+                        <Link to='/contact' style={{textDecoration: 'none'}}><Nav.Link href="/contact" style={{ padding: '0px 12px' }}>04 : Contact</Nav.Link></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

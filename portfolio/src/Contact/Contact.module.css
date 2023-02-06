@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap');
+
+.h2style {
+    font-family: 'Roboto Mono', monospace;
+}
+.formControl {
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 0;
+    border-color: black !important;
+    
+}
+.formControl:focus {
+    box-shadow: none;
+}
+.custombtn{
+    color:black !important;
+    background-color: transparent !important;
+    border-color: black !important;
+    border-radius: 0 !important;
+}
+.custombtn:hover {
+    background-color: black !important;
+    color: white !important;
+    border-color: black !important;
+    border-radius: 0 !important;
+}

@@ -3,7 +3,7 @@ import styles from './About.module.css';
 import profil from '../assets/images/profil.jpg'
 function About() {
     return (
-        <div className={`container-fluid-md  + ${styles.h2style}`} style={{ border: '20px solid black', overflow: 'hidden' }}>
+        <div className={`container-fluid-md vh-100 vw-100 + ${styles.h2style}`} style={{ border: '10px solid black', overflow: 'auto' }}>
             <div className="container">
                 <Navs style="light" border="black" />
             </div>
@@ -13,7 +13,7 @@ function About() {
                     <span style={{ borderLeft: '1px solid black', borderRight: '1px solid black', padding: '0 10px', }}> 03 : About me </span>
                 </h2>
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center mx-0">
                 <div className="col-md-7">
                     <div className="row">
                         <div className="col-xs-12 col-md-6">
