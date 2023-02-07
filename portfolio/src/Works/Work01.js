@@ -27,7 +27,7 @@ function Work01() {
                     <img src={neovim} alt='neovim gif' className='img-fluid' style={{ borderRadius: '5px' }} />
                     <br />
                     <br />
-                    <p>Minimal neovim IDE has syntax highlighting, autocompletion, and error diagnostic feature to name a few.
+                    <p>Minimal neovim IDE has syntax highlighting, autocompletion, and error diagnostic features to name a few.
                         Checkout this project on my github repository
                     </p>
                     <a href="https://github.com/zerkxes/Minimal-Neovim-IDE" className='fa-icon ' style={{ padding: '10px' }}>

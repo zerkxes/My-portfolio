@@ -71,11 +71,11 @@ function Slides() {
                     <Cards topic={'Library Management System'} body={'A complete library management system with plenty of features'} link='/work02'/>
                 </div>
             </div>
-            <div className={styles.imgfilter + ' col-md-12'} ><Link to=''>
+            <div className={styles.imgfilter + ' col-md-12'} ><Link to='work03'>
                 <img src={work3} className='img-fluid px-4' />
             </Link>
                 <div className="col-md-6 bg-light" style={{ position: 'relative', margin: 'auto', transform: 'translate(0%, -50%)' }}>
-                    <Cards topic={'Todo Management System'} body={'A simple Todo management system for daily use '} link=''/>
+                    <Cards topic={'Todo Management System'} body={'A simple Todo management system for daily use '} link='/work03'/>
                 </div>
             </div>
 
