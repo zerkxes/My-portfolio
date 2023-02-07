@@ -17,20 +17,20 @@ function About() {
                 <div className="col-md-7">
                     <div className="row">
                         <div className="col-xs-12 col-md-6">
-                            <h3>Consectetur adipiscing elit</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus at sem quis varius.
-                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras ultrices hendrerit nisl.</p>
-                            <h3>Ut enim ad minim </h3>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            <h3>Hey I'm Aniket Bose, a fullstack dev</h3>
+                            <br/>
+                            <p>Delving into the nitty-gritty nature of technology has always interested me and soon I was in the endless sea of Spring Framework and React.
+                                Building things from mere scraps interests me so I spend my time balancing both hardware and software.
                             </p>
-                            <h3>Maecenas luctus at sem quis varius</h3>
+                            <br />
+                            <p>My background in computer science has shaped the way I approach development.I like programming and overcoming technological hurdles.
+                            </p>
+                            <br />
                             <p>
-                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis magna sagittis elit sagittis, at hendrerit lorem venenatis. Morbi accumsan iaculis blandit. Cras ultrices hendrerit nisl.</p>
+                                I have done some work on crypto and robotics. If you like my site, don't hesitate to reach out.</p>
                         </div>
                         <div className="col-xs-12 col-md-6">
-                            <img src={profil} alt="" className="img-fluid" />
+                            <img src={profil} alt="profil" className={`img-fluid + ${styles.profil}`} />
                         </div>
                     </div>
                 </div>

@@ -13,6 +13,9 @@
 .imgfilter:hover {
     filter: none;
 }
+.fontW{
+    font-weight: 700;
+}
 /*
 filter: contrast(200%) grayscale(100%);
 */

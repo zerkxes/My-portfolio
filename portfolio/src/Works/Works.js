@@ -12,12 +12,12 @@ function Works() {
                     <span style={{ borderLeft: '1px solid black', borderRight: '1px solid black', padding: '0 10px', }}> 02 : Works </span>
                 </h2>
                 <br></br>
-                <p className={styles.pstyle}>Nulla facilisi. Vivamus vestibulum, elit in scelerisque ultricies,
-                    nisl nunc pulvinar ligula, id sodales arcu sapien in nisi. Quisque libero enim, mattis non augue posuere,
-                    venenatis dapibus urna.</p>
+                <p className={styles.pstyle}>If you are looking for a <span className={styles.fontW}>fullstack developer</span> with expertise in <span className={styles.fontW}>
+                    Lua</span>, you've come to the right place
+                    . Here are some of the projects I have dabbled in recently.</p>
             </div>
             <div className="container text-center">
-                <Slides/>
+                <Slides />
             </div>
 
         </div >

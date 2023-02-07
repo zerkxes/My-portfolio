@@ -57,25 +57,25 @@ function Slides() {
             slidesToSlide={1}
             swipeable
         >
-            <div className={styles.imgfilter + ' col-md-12 '} ><Link to=''>
+            <div className={styles.imgfilter + ' col-md-12 '} ><Link to='/work01'>
                 <img src={work1} className='img-fluid px-4' />
             </Link>
                 <div className="col-md-6 bg-light" style={{ position: 'relative', margin: 'auto', transform: 'translate(0%, -50%)' }}>
-                    <Cards />
+                    <Cards topic={'Minimalistic Neovim IDE'} body={'A custom built IDE for lightweight development at super fast speeds'} link='/work01'/>
                 </div>
             </div>
-            <div className={styles.imgfilter + ' col-md-12'} ><Link to=''>
+            <div className={styles.imgfilter + ' col-md-12'} ><Link to='/work02'>
                 <img src={work2} className='img-fluid px-4' />
             </Link>
                 <div className="col-md-6 bg-light" style={{ position: 'relative', margin: 'auto', transform: 'translate(0%, -50%)' }}>
-                    <Cards />
+                    <Cards topic={'Library Management System'} body={'A complete library management system with plenty of features'} link='/work02'/>
                 </div>
             </div>
             <div className={styles.imgfilter + ' col-md-12'} ><Link to=''>
                 <img src={work3} className='img-fluid px-4' />
             </Link>
                 <div className="col-md-6 bg-light" style={{ position: 'relative', margin: 'auto', transform: 'translate(0%, -50%)' }}>
-                    <Cards />
+                    <Cards topic={'Todo Management System'} body={'A simple Todo management system for daily use '} link=''/>
                 </div>
             </div>
 

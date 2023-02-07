@@ -3,10 +3,11 @@
 .h2style {
     font-family: 'Roboto Mono', monospace;
 }
-.profil{
-    filter: contrast(100%) grayscale(100%);
-    transition: all .1s linear
-}
-.profil:hover {
-    filter: none;
+
+.cardContainer {
+    background-color: #fff;
+    padding: 2rem 5rem;
+    position: relative;
+    width: 70%;
+    margin: -10em auto 20px;
 }
