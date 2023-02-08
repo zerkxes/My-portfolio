@@ -8,7 +8,7 @@ function Typing() {
                 2000, // Waits 1s
                 'A Fullstack developer', // Deletes 'One' and types 'Two'
                 2000, // Waits 2s
-                'Working as freelance',
+                'Working as a freelancer',
                 2000, // Types 'Three' without deleting 'Two'
                 
             ]}
