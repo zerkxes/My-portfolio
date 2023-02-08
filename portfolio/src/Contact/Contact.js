@@ -87,7 +87,7 @@ function Contact() {
                             <a href='https://www.instagram.com/fucka.saurus_rex/' className='fa-icon' style={{ padding: '10px' }}>
                                 <i className='fa-brands fa-square-instagram' style={{ color: 'black' }} />
                             </a>
-                            <a href='' className='fa-icon ' style={{ padding: '10px' }}>
+                            <a href='https://www.linkedin.com/in/aniket-bose-304741240/' className='fa-icon ' style={{ padding: '10px' }}>
                                 <i className='fa fa-linkedin' style={{ color: 'black' }} />
                             </a>
                         </div>

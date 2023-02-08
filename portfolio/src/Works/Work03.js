@@ -30,7 +30,7 @@ function Work03() {
                     <br />
                     <p>Built with security in mind to keep personal data private.
                     </p>
-                    <a href="https://github.com/zerkxes/Minimal-Neovim-IDE" className='fa-icon ' style={{ padding: '10px' }}>
+                    <a href="https://github.com/zerkxes/Todo-Management-System.git" className='fa-icon ' style={{ padding: '10px' }}>
                         <i className='fa-brands fa-github' style={{ color: 'black' }} />
                     </a>
                 </div>
